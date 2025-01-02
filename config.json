@@ -21,7 +21,7 @@
     "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
     "port": 443,
     "protocol": "https",
-    "api_key": "o4zUIDXPAomFUqJ5HfokSFwEFn0RlXmB",
+    "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
     "index_name": "places",
     "query_by": "name,names",
     "default_sort": "name"
