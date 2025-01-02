@@ -18,16 +18,16 @@
     }
   },
   "typesense": {
-    "host": "mk0zu5rvf46oa2h7p-1.a1.typesense.net",
+    "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
     "port": 443,
     "protocol": "https",
-    "api_key": "tNLa3l0ehDVkylc9PdFMJeic8xNG6OY6",
-    "index_name": "new_project_2",
+    "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
+    "index_name": "places",
     "query_by": "name,names",
     "default_sort": "name"
   },
   "core_data": {
-    "url": "https://staging.coredata.cloud",
-    "project_ids": [150]
+    "url": "https://app.coredata.cloud",
+    "project_ids": [48]
   }
 }
