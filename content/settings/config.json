@@ -1,8 +1,30 @@
 {
-  "content": ["paths", "posts"],
+  "branding": {
+    "header_hide_title": false,
+    "footer_hide_title": false,
+    "footer_login": true
+  },
+  "content": { 
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
+  "core_data": {
+    "url": "https://app.coredata.cloud",
+    "project_ids": [
+      "89"
+    ]
+  },
+  "detail_pages": [
+    "events",
+    "people"
+  ],
   "i18n": {
     "default_locale": "en",
-    "locales": ["en"]
+    "locales": [
+      "en"
+    ]
   },
   "layers": [
     {
@@ -11,23 +33,63 @@
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
     }
   ],
-  "search": {
-    "cluster_radius": 6,
-    "result_card": {
-      "title": "name"
+  "search": [
+    {
+      "name": "events",
+      "route": "/events",
+      "facets": [
+        {
+          "name": "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.names_facet",
+          "type": "select"
+        }
+      ],
+      "map": {
+        "geometry": "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "timeline": {
+        "date_range_facet": "start_year_facet"
+      },
+      "typesense": {
+        "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
+        "index_name": "events",
+        "query_by": "name",
+        "default_sort": "name",
+        "facets": {
+          "exclude": [
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.event_range_facet",
+            "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.event_range_facet"
+          ]
+        }
+      }
+    },
+    {
+      "name": "people",
+      "route": "/people",
+      "map": {
+        "geometry": "c814dfca-4651-460c-a447-c3502072e3b3.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
+        "index_name": "people",
+        "query_by": "name",
+        "default_sort": "name"
+      }
     }
-  },
-  "typesense": {
-    "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
-    "port": 443,
-    "protocol": "https",
-    "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
-    "index_name": "places",
-    "query_by": "name,names",
-    "default_sort": "name"
-  },
-  "core_data": {
-    "url": "https://app.coredata.cloud",
-    "project_ids": [48]
-  }
+  ]
 }
