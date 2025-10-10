@@ -9,6 +9,7 @@
     "logo": ""
   },
   "footer": {
-    "allow_login": true
+    "allow_login": true,
+    "terms_url": "https://www.panafricandata.org/en/pages/terms-and-conditions"
   }
 }
