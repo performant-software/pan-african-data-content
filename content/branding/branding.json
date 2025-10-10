@@ -10,11 +10,6 @@
   },
   "footer": {
     "allow_login": true,
-    "logos": [
-      {
-        "image": ""
-      }
-    ],
     "terms_url": "https://www.panafricandata.org/en/pages/Terms-and-Conditions/",
     "privacy_url": "https://www.panafricandata.org/en/pages/Privacy-Policy/",
     "accessibility_url": "https://www.panafricandata.org/en/pages/Accessibility/"
