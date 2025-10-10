@@ -4,6 +4,10 @@
     "footer_hide_title": false,
     "footer_login": true
   },
+  "detail_pages": [
+    "events",
+    "people"
+  ],
   "content": {
     "collections": [
       "paths",
