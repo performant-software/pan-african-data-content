@@ -11,6 +11,7 @@
   "footer": {
     "allow_login": true,
     "terms_url": "https://www.panafricandata.org/en/pages/Terms-and-Conditions/",
-    "privacy_url": ""
+    "privacy_url": "https://www.panafricandata.org/en/pages/Privacy-Policy/",
+    "accessibility_url": "https://www.panafricandata.org/en/pages/Accessibility/"
   }
 }
