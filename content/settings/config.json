@@ -6,7 +6,8 @@
   },
   "detail_pages": [
     "events",
-    "people"
+    "people",
+    "organizations"
   ],
   "content": {
     "collections": [
@@ -107,6 +108,40 @@
             "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet",
             "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.start_year_facet",
             "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.end_year_facet"
+          ]
+        }
+      }
+    },
+    {
+      "name": "organizations",
+      "route": "/organizations",
+      "facets": [
+        {
+          "name": "3240899e-d015-46cc-b207-f4c903af4555.names_facet",
+          "type": "select"
+        }
+      ],
+      "map": {
+        "geometry": "3240899e-d015-46cc-b207-f4c903af4555.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
+        "index_name": "organizations",
+        "query_by": "name",
+        "default_sort": "name",
+        "facets": {
+          "include": [
+            "event_range_facet",
+            "3240899e-d015-46cc-b207-f4c903af4555.names_facet",
+            "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet"
           ]
         }
       }
