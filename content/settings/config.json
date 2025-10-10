@@ -4,10 +4,6 @@
     "footer_hide_title": false,
     "footer_login": true
   },
-  "detail_pages": [
-    "events",
-    "people"
-  ],
   "content": {
     "collections": [
       "paths",
@@ -33,6 +29,13 @@
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
     }
   ],
+  "result_filtering": {
+    "events": {
+      "exclude": [
+        "246038ff-07fe-4904-89fd-74248e176dd0"
+      ]
+    }
+  },
   "search": [
     {
       "name": "events",
@@ -65,9 +68,12 @@
         "query_by": "name",
         "default_sort": "name",
         "facets": {
-          "exclude": [
-            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.event_range_facet",
-            "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.event_range_facet"
+          "include": [
+            "name_facet",
+            "start_year_facet",
+            "end_year_facet",
+            "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.names_facet",
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.name_facet"
           ]
         }
       }
@@ -90,7 +96,17 @@
         "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
         "index_name": "people",
         "query_by": "name",
-        "default_sort": "name"
+        "default_sort": "name",
+        "facets": {
+          "include": [
+            "name_facet",
+            "7a32179b-d5bd-4688-ad28-18240454077f_facet",
+            "event_range_facet",
+            "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet",
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.start_year_facet",
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.end_year_facet"
+          ]
+        }
       }
     }
   ]
