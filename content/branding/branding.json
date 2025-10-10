@@ -10,6 +10,11 @@
   },
   "footer": {
     "allow_login": true,
+    "logos": [
+      {
+        "image": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/padp-weave.png"
+      }
+    ],
     "terms_url": "https://www.panafricandata.org/en/pages/Terms-and-Conditions/",
     "privacy_url": "https://www.panafricandata.org/en/pages/Privacy-Policy/",
     "accessibility_url": "https://www.panafricandata.org/en/pages/Accessibility/"
