@@ -43,7 +43,8 @@
         "zoom_to_place": true
       },
       "result_card": {
-        "title": "name"
+        "title": "name",
+        "table": true
       }
     },
     {
