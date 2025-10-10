@@ -47,9 +47,7 @@
       "facets": [
         {
           "name": "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.names_facet",
-          "type": [
-            "select"
-          ]
+          "type": "select"
         }
       ],
       "map": {
