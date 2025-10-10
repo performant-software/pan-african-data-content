@@ -2,15 +2,18 @@
   "t_relatedMediaEmpty": "No related media",
   "t_home": "Home",
   "t_about": "About",
+  "t_pages": "About",
   "t_paths": "Paths",
   "t_relatedOrganizations": "Related Organizations",
   "t_relatedOrganizationsEmpty": "No related organizations",
   "t_relatedPeople": "Related People",
   "t_relatedPeopleEmpty": "No related people",
+  "t_coreDataLogin": "Log in to FairData",
+  "t_tinaLogin": "Log in to CMS",
   "t_root": "Events",
   "t_map": "Map",
   "t_relatedMedia": "Related Media",
+  "t_aa4f579a56cf4f55994b63b9d938a1ef": "",
   "t_index_events": "Events",
-  "t_index_people": "People",
-  "t_index_organizations": "Organizations"
+  "t_index_people": "People"
 }
