@@ -41,6 +41,9 @@
         "geometry": "https://www.panafricandata.org/admin/index.html#/collections/edit/settings/config",
         "max_zoom": 14,
         "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
       }
     },
     {
