@@ -4,7 +4,11 @@
     "footer_hide_title": false,
     "footer_login": true
   },
-  "content": { 
+  "detail_pages": [
+    "events",
+    "people"
+  ],
+  "content": {
     "collections": [
       "paths",
       "posts"
@@ -16,10 +20,6 @@
       "89"
     ]
   },
-  "detail_pages": [
-    "events",
-    "people"
-  ],
   "i18n": {
     "default_locale": "en",
     "locales": [
@@ -35,12 +35,23 @@
   ],
   "search": [
     {
+      "name": "organizations",
+      "route": "/organizations",
+      "map": {
+        "geometry": "https://www.panafricandata.org/admin/index.html#/collections/edit/settings/config",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      }
+    },
+    {
       "name": "events",
       "route": "/events",
       "facets": [
         {
           "name": "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.names_facet",
-          "type": "select"
+          "type": [
+            "select"
+          ]
         }
       ],
       "map": {
