@@ -39,6 +39,12 @@
       "exclude": [
         "246038ff-07fe-4904-89fd-74248e176dd0"
       ]
+    },
+    "people": {
+      "exclude": [
+        "febbc1d3-3f87-4195-8351-e7b861fe72c8",
+        "522a2f23-6f45-444d-ad79-6bd102816cf2"
+      ]
     }
   },
   "search": [
@@ -72,7 +78,6 @@
         "default_sort": "name",
         "facets": {
           "include": [
-            "name_facet",
             "start_year_facet",
             "end_year_facet",
             "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.names_facet",
@@ -102,12 +107,13 @@
         "default_sort": "name",
         "facets": {
           "include": [
-            "name_facet",
             "7a32179b-d5bd-4688-ad28-18240454077f_facet",
             "event_range_facet",
             "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet",
             "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.start_year_facet",
-            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.end_year_facet"
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.end_year_facet",
+            "7a32179b-d5bd-4688-ad28-18240454077f_facet",
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.names_facet"
           ]
         }
       }
