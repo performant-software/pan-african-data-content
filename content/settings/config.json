@@ -5,6 +5,8 @@
     "footer_login": true
   },
   "detail_pages": [
+    "events",
+    "people",
     "organizations"
   ],
   "content": {
