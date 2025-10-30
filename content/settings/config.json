@@ -11,6 +11,7 @@
   ],
   "content": {
     "collections": [
+      "pages",
       "paths",
       "posts"
     ]
@@ -54,7 +55,9 @@
       "facets": [
         {
           "name": "a4bfff2a-f624-4d7b-a821-a3e6f35e770d.names_facet",
-          "type": "select"
+          "type": [
+            "select"
+          ]
         }
       ],
       "map": {
@@ -124,7 +127,9 @@
       "facets": [
         {
           "name": "3240899e-d015-46cc-b207-f4c903af4555.names_facet",
-          "type": "select"
+          "type": [
+            "select"
+          ]
         }
       ],
       "map": {
