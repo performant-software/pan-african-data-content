@@ -114,6 +114,7 @@
             "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet",
             "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.start_year_facet",
             "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.end_year_facet",
+            "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.name_facet",
             "7a32179b-d5bd-4688-ad28-18240454077f_facet",
             "0e8d3e69-c6e6-4fd4-853e-7be730fbde08.names_facet"
           ]
@@ -138,6 +139,10 @@
       },
       "result_card": {
         "title": "name"
+      },
+      "timeline": {
+        "date_range_facet": "event_range_facet",
+        "event_path": "ae2296bc-792e-40a3-a8aa-d54931676931"
       },
       "typesense": {
         "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
