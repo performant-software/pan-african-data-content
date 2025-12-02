@@ -137,7 +137,7 @@
         "title": "name"
       },
       "timeline": {
-        "date_range_facet": "event_range_facet",
+        "date_range_facet": "2b71f3ed-e99d-4273-9a3a-eb3841bdc416.start_year_facet",
         "event_path": "2b71f3ed-e99d-4273-9a3a-eb3841bdc416"
       },
       "typesense": {
@@ -150,10 +150,9 @@
         "default_sort": "name",
         "facets": {
           "include": [
-            "event_range_facet",
+            "2b71f3ed-e99d-4273-9a3a-eb3841bdc416.start_year_facet",
             "3240899e-d015-46cc-b207-f4c903af4555.names_facet",
-            "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet",
-            "2b71f3ed-e99d-4273-9a3a-eb3841bdc416.start_year_facet"
+            "aa4f579a-56cf-4f55-994b-63b9d938a1ef.name_facet"
           ]
         }
       }
