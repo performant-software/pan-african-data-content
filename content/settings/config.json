@@ -15,7 +15,10 @@
     "collections": [
       "paths",
       "posts"
-    ]
+    ],
+    "posts_config": {
+      "layout": "grid"
+    }
   },
   "core_data": {
     "url": "https://app.coredata.cloud",
