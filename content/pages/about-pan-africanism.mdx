@@ -9,7 +9,8 @@ sections:
     background_image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/padp-hero.jpg
     height: medium
-    _template: hero
+    darken: true
+    _template: banner
   - body: >
       Pan-Africanism emerged at the turn of the twentieth century as a global
       network of ideas, activism, and solidarity linking Africa and its
@@ -119,18 +120,21 @@ sections:
     _template: free_text
   - size: small
     _template: spacer
-  - items:
-      - title: Rights and Reuse
-        description: >-
-          The Pan-African Data Project © 2025 by Roopika Risam et al. is
-          licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
-          project and its data. 
-      - title: Citation
-        description: >-
-          To cite this page, please use: Risam, Roopika. 2025. "About
-          Pan-Africanism." The Pan-African Data Project.
-          https://www.panafricandata.org/en/pages/about-pan-africanism/.
-    _template: text_block
+  - columns:
+      - content:
+          - title: Rights and Reuse
+            description: >-
+              The Pan-African Data Project © 2025 by Roopika Risam et al. is
+              licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
+              project and its data. 
+            _template: basic
+          - title: Citation
+            description: >-
+              To cite this page, please use: Risam, Roopika. 2025. "About
+              Pan-Africanism." The Pan-African Data Project.
+              https://www.panafricandata.org/en/pages/about-pan-africanism/.
+            _template: basic
+    _template: multi_column
   - size: small
     _template: spacer
 ---

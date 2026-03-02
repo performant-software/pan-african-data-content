@@ -2,15 +2,18 @@
 title: Pan-African Data Project
 home_page: true
 sections:
-  - title: The Pan-African Data Project
+  - hero: true
+    title: The Pan-African Data Project
     subtitle: >-
       Building a collective record of liberation — one data point, one story at
       a time
+    content: ''
+    height: large
     background_image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/padp-hero.jpg
     background_image_alt: Alt
-    height: large
-    _template: hero
+    darken: true
+    _template: banner
   - size: small
     _template: spacer
   - items:
@@ -43,13 +46,8 @@ sections:
           https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/delegates-paf.jpeg
         image_alt: Delegates seated in chairs at the Brussels Pan-African Congress
     _template: carousel
-  - body: >
-      ⚙️ **Site Status (November 22, 2025):** Data in the information panels on
-      the People Explorer may be slow to load for people with relationships with
-      multiple places, particularly the Soviet Union, and geographic borders for
-      the Soviet Union look irregular when zoomed in. We appreciate patience as
-      we address how our API loads polygons from the database. 
-    _template: free_text
+  - size: small
+    _template: spacer
   - title: About Pan-Africanism
     description: >-
       Pan-Africanism emerged at the turn of the twentieth century as a global
@@ -99,29 +97,35 @@ sections:
     _template: text_image
   - size: medium
     _template: spacer
-  - items:
-      - title: 'Rights, Reuse, and Citation'
-        description: >+
-          The Pan-African Data Project © 2025 by Roopika Risam et al. is
-          licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
-          project and its data. To cite this project, please use: Risam,
-          Roopika, et al. 2025. The Pan-African Data Project.
-          https://panafricandata.org. 
-
-      - title: Homepage Image Credits
-        description: >-
-          Header image: Delegates to the Fourth Pan-African Congress, 1927,
-          public domain. Carousel images: Invitation to Pan-African Conference,
-          1900, public domain; Amy Ashwood Garvey at the Fifth Pan-African
-          Congress © John Deakin via Getty Images, used under license; Audience
-          of the Second Pan-African Conference, 1921, public domain. Footer
-          image: Third Pan-African Congress, 1923, public domain.
-    _template: text_block
+  - columns:
+      - content:
+          - title: 'Rights, Reuse, and Citation'
+            description: >
+              The Pan-African Data Project © 2025 by Roopika Risam et al. is
+              licensed under CC BY-NC 4.0. We encourage reuse and remixing of
+              the project and its data. To cite this project, please use: Risam,
+              Roopika, et al. 2025. The Pan-African Data Project.
+              https://panafricandata.org.
+            _template: basic
+      - content:
+          - title: Homepage Image Credits
+            description: >-
+              Header image: Delegates to the Fourth Pan-African Congress, 1927,
+              public domain. Carousel images: Invitation to Pan-African
+              Conference, 1900, public domain; Amy Ashwood Garvey at the Fifth
+              Pan-African Congress © John Deakin via Getty Images, used under
+              license; Audience of the Second Pan-African Conference, 1921,
+              public domain. Footer image: Third Pan-African Congress, 1923,
+              public domain.
+            _template: basic
+    _template: multi_column
   - size: small
     _template: spacer
-  - background_image: >-
-      https://core-data-tina-cms.s3.us-east-1.amazonaws.com/padp-staging-content/Mask%20group%20(1).jpg
+  - content: ''
     height: medium
-    _template: hero
+    background_image: >-
+      https://core-data-tina-cms.s3.us-east-1.amazonaws.com/padp-staging-content/Mask%20group%20(1).jpg
+    darken: true
+    _template: banner
 ---
 

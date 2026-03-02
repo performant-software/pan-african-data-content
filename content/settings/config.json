@@ -4,11 +4,13 @@
     "footer_hide_title": false,
     "footer_login": true
   },
-  "detail_pages": [
-    "events",
-    "people",
-    "organizations"
-  ],
+  "detail_pages": {
+    "models": {
+      "events": {},
+      "organizations": {},
+      "people": {}
+    }
+  },
   "content": {
     "collections": [
       "paths",

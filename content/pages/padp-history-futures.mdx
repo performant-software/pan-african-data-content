@@ -7,7 +7,8 @@ sections:
     background_image: >-
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/padp-hero.jpg
     height: medium
-    _template: hero
+    darken: true
+    _template: banner
   - size: small
     _template: spacer
   - title: Phase I (2019-2022)
@@ -228,19 +229,22 @@ sections:
     _template: text_image
   - size: small
     _template: spacer
-  - items:
-      - title: Rights and Reuse
-        description: >-
-          The Pan-African Data Project © 2025 by Roopika Risam et al. is
-          licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
-          project and its data. 
-      - title: Citation
-        description: >-
-          To cite this page, please use: Risam, Roopika, et al. 2025. "The
-          Pan-African Data Project History & Futures." The Pan-African Data
-          Project.
-          https://www.panafricandata.org/en/pages/padp-history-futures/.
-    _template: text_block
+  - columns:
+      - content:
+          - title: Rights and Reuse
+            description: >-
+              The Pan-African Data Project © 2025 by Roopika Risam et al. is
+              licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
+              project and its data. 
+            _template: basic
+          - title: Citation
+            description: >-
+              To cite this page, please use: Risam, Roopika, et al. 2025. "The
+              Pan-African Data Project History & Futures." The Pan-African Data
+              Project.
+              https://www.panafricandata.org/en/pages/padp-history-futures/.
+            _template: basic
+    _template: multi_column
   - size: small
     _template: spacer
 ---

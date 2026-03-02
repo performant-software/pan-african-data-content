@@ -11,7 +11,8 @@ sections:
       https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/padp-hero.jpg
     text_alignment: left
     height: medium
-    _template: hero
+    darken: true
+    _template: banner
   - body: >
       **Effective Date: October 15, 2025**
 
@@ -105,17 +106,20 @@ sections:
   - size: small
     _template: spacer
   - title: ''
-    items:
-      - title: Rights and Reuse
-        description: >-
-          The Pan-African Data Project © 2025 by Roopika Risam et al. is
-          licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
-          project and its data. 
-      - title: Citation
-        description: >-
-          To cite this project, please use: Risam, Roopika, et al. 2025. The
-          Pan-African Data Project. https://panafricandata.org. 
-    _template: text_block
+    columns:
+      - content:
+          - title: Rights and Reuse
+            description: >-
+              The Pan-African Data Project © 2025 by Roopika Risam et al. is
+              licensed under CC BY-NC 4.0. We encourage reuse and remixing of the
+              project and its data. 
+            _template: basic
+          - title: Citation
+            description: >-
+              To cite this project, please use: Risam, Roopika, et al. 2025. The
+              Pan-African Data Project. https://panafricandata.org. 
+            _template: basic
+    _template: multi_column
   - size: small
     _template: spacer
 ---

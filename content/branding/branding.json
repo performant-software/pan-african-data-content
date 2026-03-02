@@ -2,9 +2,12 @@
   "font_name": "Afacad",
   "title": "The Pan-African Data Project",
   "font_header": "Afacad",
+  "header_size": "74px",
+  "header_capitalization": "uppercase",
   "font_body": "Open Sans",
   "primary_color": "#101010",
   "secondary_color": "#0E6F50",
+  "tertiary_color": "#B8BABE",
   "header": {
     "logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pan-african-data-content/padp-weave-tp.png"
   },
